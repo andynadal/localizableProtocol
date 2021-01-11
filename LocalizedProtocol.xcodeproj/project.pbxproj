@@ -11,6 +11,7 @@
 		2D7B11E325ACDA4800890510 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B11E225ACDA4800890510 /* ContentView.swift */; };
 		2D7B11E525ACDA4F00890510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B11E425ACDA4F00890510 /* Assets.xcassets */; };
 		2D7B11E825ACDA4F00890510 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B11E725ACDA4F00890510 /* Preview Assets.xcassets */; };
+		2D7B120625ACE2C200890510 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B120825ACE2C200890510 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,9 @@
 		2D7B11E425ACDA4F00890510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D7B11E725ACDA4F00890510 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D7B11E925ACDA4F00890510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7B120725ACE2C200890510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2D7B120925ACE2DF00890510 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2D7B120B25AD016F00890510 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 				2D7B11E425ACDA4F00890510 /* Assets.xcassets */,
 				2D7B11E925ACDA4F00890510 /* Info.plist */,
 				2D7B11E625ACDA4F00890510 /* Preview Content */,
+				2D7B120825ACE2C200890510 /* Localizable.strings */,
 			);
 			path = LocalizedProtocol;
 			sourceTree = "<group>";
@@ -110,6 +115,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
+				fr,
 			);
 			mainGroup = 2D7B11D425ACDA4800890510;
 			productRefGroup = 2D7B11DE25ACDA4800890510 /* Products */;
@@ -127,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7B11E825ACDA4F00890510 /* Preview Assets.xcassets in Resources */,
+				2D7B120625ACE2C200890510 /* Localizable.strings in Resources */,
 				2D7B11E525ACDA4F00890510 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +152,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D7B120825ACE2C200890510 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D7B120725ACE2C200890510 /* en */,
+				2D7B120925ACE2DF00890510 /* es-419 */,
+				2D7B120B25AD016F00890510 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2D7B11EA25ACDA4F00890510 /* Debug */ = {

@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  LocalizedProtocol
+
+  Created by Andy Nadal on 1/11/21.
+  
+*/
+
+"ENGLISH" = "Inglés";
+"SPANISH" = "Español";
+"FRENCH" = "Francés";
+"ITALIAN" = "Italiano";
+"AMERICA" = "Estados Unidos";
+"FRANCE" = "Francia";
+"SPAIN" = "España";
+"MEXICO" = "Mexico";
+"UNITED_KINGDOM" = "Reino Unido";
